@@ -1,10 +1,11 @@
 /* Стилизация кнопки */
 .button {
+  display: inline-block;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
-  width: 182px;
+  min-width: 100px;
   height: 48px;
   background-color: var(--white);
   border: 1px solid transparent;
@@ -23,8 +24,7 @@
   border-color: var(--primary-hover);
 }
 
-.button.button-primary,
-.button.button-primary[disabled] {
+.button.button-primary {
   background-color: var(--primary);
   border-color: var(--primary);
   color: var(--white);

@@ -21,14 +21,14 @@
   font-size: 0;
 }
 
-.accordion .accordion__summary .accordion__arrow {
+.accordion__arrow {
   position: absolute;
   top: 50%;
   right: 0;
   transform: translateY(-50%);
 }
 
-.accordion[open] .accordion__summary .accordion__arrow {
+.accordion[open] .accordion__arrow {
   transform: translateY(-50%) rotate(180deg);
 }
 
