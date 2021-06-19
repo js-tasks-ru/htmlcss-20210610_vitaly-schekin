@@ -24,7 +24,8 @@
   border-color: var(--primary-hover);
 }
 
-.button.button-primary {
+.button.button-primary,
+.button.button-primary[disabled] {
   background-color: var(--primary);
   border-color: var(--primary);
   color: var(--white);
