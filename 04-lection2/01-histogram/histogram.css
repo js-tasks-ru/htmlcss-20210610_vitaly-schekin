@@ -46,5 +46,6 @@
 
 .histogram__column {
   flex: 1 0 auto;
+  min-width: 9px;
   background-color: var(--blue);
 }
