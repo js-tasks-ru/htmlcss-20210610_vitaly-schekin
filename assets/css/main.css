@@ -29,3 +29,12 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+
+a {
+    color: var(--blue);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
