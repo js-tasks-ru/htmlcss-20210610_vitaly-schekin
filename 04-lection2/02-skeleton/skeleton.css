@@ -1,0 +1,52 @@
+.skeleton {
+  box-sizing: border-box;
+  background: var(--white);
+  border: 1px solid var(--grey-3);
+  border-radius: 8px;
+  padding: 24px 40px 32px 24px;
+}
+
+.skeleton__header {
+  display: flex;
+  align-items: center;
+}
+
+.skeleton__avatar {
+  background-color: var(--grey-2);
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  margin-right: 16px;
+}
+
+.skeleton__user_info {
+  flex: 1 0 auto;
+}
+
+.skeleton__main {
+  margin-top: 24px;
+}
+
+.skeleton__bar {
+  background: linear-gradient(
+    92.51deg,
+    var(--gradient-grey-1) 6.44%,
+    var(--gradient-grey-2) 38.47%,
+    var(--gradient-grey-3) 56.48%,
+    var(--gradient-grey-4) 77.5%,
+    var(--gradient-grey-5) 102.52%
+  );
+  height: 20px;
+}
+
+.skeleton__bar + .skeleton__bar {
+  margin-top: 8px;
+}
+
+.skeleton__bar-small {
+  width: 40%;
+}
+
+.skeleton__bar-middle {
+  width: 60%;
+}

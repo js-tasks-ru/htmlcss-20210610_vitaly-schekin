@@ -1,11 +1,33 @@
 <!DOCTYPE html>
-<!-- Страница со скелетоном -->
+<!-- by Vitaly Schekin -->
 <html lang="ru">
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./skeleton.css">
+
+        <style>
+            body { margin: 8px; }
+
+            /* div { outline: 1px solid red; } */
+        </style>
     </head>
     <body>
+        <div class="skeleton">
+            <div class="skeleton__header">
+                <div class="skeleton__avatar"></div>
 
+                <div class="skeleton__user_info">
+                    <div class="skeleton__bar skeleton__bar-small"></div>
+
+                    <div class="skeleton__bar skeleton__bar-middle"></div>
+                </div>
+            </div>
+
+            <div class="skeleton__main">
+                <div class="skeleton__bar"></div>
+
+                <div class="skeleton__bar"></div>
+            </div>
+        </div>
     </body>
 </html>

@@ -24,6 +24,12 @@
     --secondary-hover: var(--purple-dark);
     --alternate: var(--grey-3);
     --alternate-hover: var(--black);
+
+    --gradient-grey-1: #DDE2E5;
+    --gradient-grey-2: #E2E6E8;
+    --gradient-grey-3: #F3F5F5;
+    --gradient-grey-4: #E3E7EA;
+    --gradient-grey-5: #DDE2E5;
 }
 
 * {
