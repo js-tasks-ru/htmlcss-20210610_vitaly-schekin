@@ -37,9 +37,16 @@
     var(--gradient-grey-5) 102.52%
   );
   height: 20px;
+}
+
+.skeleton__bar + .skeleton__bar {
   margin-top: 8px;
 }
 
-.skeleton__bar:first-child {
-  margin-top: 0;
+.skeleton__bar-small {
+  width: 40%;
+}
+
+.skeleton__bar-middle {
+  width: 60%;
 }
