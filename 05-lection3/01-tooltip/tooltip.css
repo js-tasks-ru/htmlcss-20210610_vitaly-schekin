@@ -32,6 +32,7 @@
   font-size: 16px;
   line-height: 24px;
   text-align: center;
+  white-space: nowrap;
 }
 
 .tooltip__menu::after {
