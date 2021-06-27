@@ -35,8 +35,11 @@
     --modal-title: #334D6E;
 }
 
-* {
+body {
     font-family: 'Roboto', sans-serif;
+}
+
+* {
     box-sizing: border-box;
 }
 
