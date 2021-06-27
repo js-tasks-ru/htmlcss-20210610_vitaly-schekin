@@ -6,6 +6,7 @@
   border: 1px solid var(--grey-3);
   border-radius: 8px;
   padding: 28px 26px 24px 26px;
+  overflow: auto;
 }
 
 .calendar__title {
