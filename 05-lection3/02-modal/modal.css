@@ -6,25 +6,28 @@
   bottom: 0;
   left: 0;
   background-color: var(--modal-background);
+  overflow-y: auto;
+}
+
+.modal__body {
+  min-height: calc(100% - 87px);
+  margin: 40px 40px 47px 40px;
+  display: flex;
 }
 
 .modal__main {
-  position: absolute;
+  position: relative;
   background-color: var(--white);
   width: 428px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   padding: 30px 40px 33px 40px;
   border-radius: 8px;
-  max-height: calc(100% - 80px);
-  overflow-y: auto;
+  margin: auto;
 }
 
 .modal__close {
   position: absolute;
-  top: 15.33px;
-  right: 15.33px;
+  top: 15px;
+  right: 15px;
   cursor: pointer;
 }
 

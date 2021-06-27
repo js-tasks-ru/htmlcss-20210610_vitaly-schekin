@@ -20,33 +20,33 @@
   pointer-events: none;
 }
 
-.button.button-primary {
+.button.button_primary {
   background-color: var(--primary);
   border-color: var(--primary);
   color: var(--white);
 }
 
-.button.button-primary:hover {
+.button.button_primary:hover {
   background-color: var(--primary-hover);
   border-color: var(--primary-hover);
 }
 
-.button.button-secondary {
+.button.button_secondary {
   background-color: var(--secondary);
   border-color: var(--secondary);
   color: var(--white);
 }
 
-.button.button-secondary:hover {
+.button.button_secondary:hover {
   background-color: var(--secondary-hover);
   border-color: var(--secondary-hover);
 }
 
-.button.button-alternate {
+.button.button_alternate {
   border-color: var(--alternate);
   color: var(--grey-4);
 }
 
-.button.button-alternate:hover {
+.button.button_alternate:hover {
   border-color: var(--alternate-hover);
 }
