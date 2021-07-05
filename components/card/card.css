@@ -1,0 +1,30 @@
+/* div { outline: 1px solid red; } */
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 367px;
+  padding: 80px 24px 30px 26px;
+  background: var(--white);
+  box-shadow: 0px 2px 4px var(--card-background);
+  border-radius: 12px;
+}
+
+.card__component {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card__title {
+  flex: 0 0 auto;
+  margin-top: 30px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+  color: var(--black);
+}

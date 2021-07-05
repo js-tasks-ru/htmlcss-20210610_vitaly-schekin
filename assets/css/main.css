@@ -33,6 +33,8 @@
 
     --modal-background: rgb(196, 196, 196, 0.5);
     --modal-title: #334D6E;
+
+    --card-background: rgba(33, 36, 41, 0.05);
 }
 
 body {
